@@ -1,0 +1,3 @@
+{
+    "MongoURI": "mongodb+srv://ramya:ramya@transactionapp.xohqp.mongodb.net/bank_account?retryWrites=true&w=majority"
+}
