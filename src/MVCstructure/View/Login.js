@@ -145,7 +145,7 @@ const Login = ({ initiateLogin, error, setErrors, auth }) => {
         </Grid>
       </form>
 
-    </>
+    </ >
 
   )
 }
@@ -155,4 +155,5 @@ const mapStateToProps = (state) => ({
   auth: state.auth
 })
 
+//export default connect(mapStateToProps, { initiateLogin, setErrors })(Login)
 export default connect(mapStateToProps, { initiateLogin, setErrors })(Login)

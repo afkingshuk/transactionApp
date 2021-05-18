@@ -69,6 +69,7 @@ const Profile = ({ profileData, updateProfile }) => {
     useEffect(() => {
         setValues({ ...values, fname: profileData && profileData.fname, lname: profileData && profileData.lname, email: profileData && profileData.email })
     }, [profileData])
+
     return (
         <div>
             <Container className={classes.paper}>
